@@ -1,0 +1,17 @@
+body {
+    background-image: url("ataturk.jpg") ;
+    background-repeat: no-repeat, repeat;
+    background-color: #cccccc;
+    background-size: 2000px ;
+  }
+.yunus  {
+    vertical-align: bottom;
+    color: blue;
+  }
+.pp {
+    
+    color: yellow;
+  }
+.baslik{
+    color: darkred ;
+}
