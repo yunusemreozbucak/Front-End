@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<title>Çalışma Sayfam</title>
+<hr>
+<meta charset="UTF-8">
+<meta name="viewport" content="width-device-width, intial-scale=1.0">  
+  <link rel="stylesheet" href="cssdosyam.css">
+</head>
+<body>
+<div class = "baslik"><h1 align="center">Çalışma Sayfam</h1>
+<div align="center"<h1><button >Buton1</h1></button>
+</div>
+<div class = "buton3">
+<button>Buton3</button>
+</div>
+
+<div class="yunus">
+    <button onclick="this.innerHTML="><h1>Buton 2</h1></button>
+<div class="pp">
+    <p>Bu<br>bir<br>akrostiştir<br></p>
+</div>
+</div>
+<script>                                        //javascript başlangıcı
+    var array = ["Java","PYTHON","PHP"]
+   array.push("Go");
+   alert(array);
+var i = 0;
+while (i<100){
+    console.log("i değeri: "+i)
+    i +=2; 
+}
+var sayilar = [32,5,1,100,-1,90]
+console.log("Array Elemanları...");
+
+for (var i=0; i<sayilar.length;i++)
+console.log("Eleman: "+ sayilar[i]);
+
+/*
+sayilar.forEach(function(sayi){
+    console.log("Eleman:"+ sayi); //aynı sonucu veriyor.
+})
+*/
+var a = 10;
+var b = 2;
+if (a == b ) {
+    console.log("Eşittir")
+}
+else {
+    console.log("Eşit değildir.")
+}
+if (2 == "2")
+{
+   console.log("Eşittir.") //bu çıktı diğer tüm yazılım dillerinde çıktı vermez. Fakat javascript String veri ile integer veriyi eşit kabul ediyor. 
+                           //bu hatayı düzeltmek için "===" eşitliğini kullanmamız gerekiyor ki veri tiplerine de bakılabilsin                          
+}
+//fonksiyon isimlerinde python'da olduğu gibi değişken adını belirtmemize gerek kalmıyor, otomatik algılıyor.
+function selamla(isim){
+    console.log("Merhaba "+ isim);
+}
+selamla("Yunus")
+selamla("1234")
+var calisan = {
+        isim: "Mustafa Murat",
+        soyisim: "Aydın",
+        numara: 05365,
+        diller: ("PHP","JAVA","PYTHON"),
+        adres:
+        {
+            cadde: "İstiklal",
+            sokak: "Aşağıköy"
+        }
+}
+console.log(calisan.isim)
+console.log(calisan.soyisim)
+console.log(calisan.adres.cadde)
+console.log(calisan.adres.sokak)
+
+
+function Calisan(isim,soyisim,numara){
+    this.isim= isim;
+    this.soyisim = soyisim;
+    this.numara = numara;
+    this.bilgileriGoster = function(){
+        return "İsim: " + this.isim + "\nSoyisim :" + this.soyisim + "\Numara:" + this.numara; 
+    }
+}
+var calisan1 = new Calisan("Yunus Emre", "Özbucak", 12312541);
+console.log(calisan1.bilgileriGoster);
+function tikla(){
+    alert("Butona tıklandı...")
+}
+<div class "container">
+    <p id = "para1"> Paragraf 1 </p>
+    <button onclick= "renkDegistir()"> Tıkla
+    </button>
+    </div>
+    function renkDegistir(){
+    var element = document.getElementById("para1");
+    element.style.color = "red";
+}
+</script>
+</body>
+</html>
