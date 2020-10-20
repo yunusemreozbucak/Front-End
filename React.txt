@@ -1,0 +1,9 @@
+Gerçek zamanlı güncellenen web sitelerinde olan zorluğu React, Angular gibi framework kaynaklar işinizi kolaylaştırmanızı sağlıyor.
+Facebook tarafından geliştirilen bir sistemdir bu "React".
+*State*
+React ile bir uygulama geliştirirken, hemen hemen bütün dinamik değerleri State denen bir obje içerisinde tutarız. 
+Ekranda göstereceğiniz zaman, bu state içerisinden gösterirsiniz.
+React ile bir uygulama geliştirirken, hemen hemen bütün dinamik değerleri State denen bir obje içerisinde tutarsınız. 
+Ekranda göstereceğiniz zaman bu state içerisinden gösterirsiniz.
+Aktif olarak site ya da uygulama üzerinde gerçekleştirilmesi gereken bir komutu direkt geliştirilmesine olanak sağlar.
+Client tarafında(Kullanıcı) akıcılık ve olağanüstü seviyede kolaylık sağlar.
