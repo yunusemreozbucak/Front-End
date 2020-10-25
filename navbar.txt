@@ -1,0 +1,22 @@
+
+
+NAVBAR İÇİN GEREKLİ OLAN HTML KODLARI
+
+
+
+
+<!DOCTYPE html>
+html lang="en">
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width">
+   <title> <title>
+   <meta name="keywords" content="TITLE YAZILAN YAZILMASI UYGUNDUR">
+   <meta name="description"
+    content="Title" /> 
+
+
+<link rel (FONT AYARLARI GİRİLİR)
+<link rel="stylesheet" medioa="(max-width:760px)" href="css:/tablet.css" />
+
+CSS Dosyasını tanımlayıp, css üzerindeki değişiklikleri etki etmesini sağlar.
